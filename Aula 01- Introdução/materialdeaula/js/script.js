@@ -31,7 +31,7 @@ var idade = prompt("Qual é a sua idade?"); // a vaiavel vai receber o que a ida
         //alert("Seja bem vindo " +nome); // + é para concatenar
 
         //segunda maneira ${} - ignora o trecho como texto
-alert("Seja bem vindo" ${nome});
+alert("Seja bem vindo" `${nome}`);
 
 //---------TIPO DE VALORES-------------
 //NUMBER numeros
