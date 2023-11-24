@@ -26,7 +26,7 @@ if(idade >= 60 ){
     location.reload();
 }
 
-//COPIAR DO GIT DO PROF ESSA SEGUNDA PARTE
+
 
 // SEGUNDA FORMA DE FAZER O EXERCICIO(COM O IF E O ELSE)-
 
