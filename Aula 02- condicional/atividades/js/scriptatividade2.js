@@ -30,13 +30,37 @@ if(idade >= 60 ){
 
 // SEGUNDA FORMA DE FAZER O EXERCICIO(COM O IF E O ELSE)-
 
-if(idade >= 60 ){
-    alert("idoso");
-    location.reload();
-}else{
-    if(idade > 0 && idade < 15 ){
-        alert("criança");
-        location.reload();
-    }
 
+
+// if else
+if(idade <= 0){
+    alert("Idade inválida!");
+    location.reload();
+} else{
+    if(idade > 0 && idade < 15){    
+        alert("Criança");
+        location.reload();
+    } else {
+        if(idade >= 15 && idade < 30){
+        alert("Jovem");
+        location.reload();
+        } else {
+            if(idade >= 30 && idade < 60){
+                alert("Adulto");
+                location.reload();
+            } else{
+                alert("Idoso");
+                location.reload();
+            }
+        }
+    }
 }
+
+// else if
+
+// if
+// else if
+// else if
+// else if
+// else if
+// else
