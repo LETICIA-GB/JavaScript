@@ -66,13 +66,19 @@ console.log(arraycomputador.includes("monitor"))
 
 
 
-//var pergunta = prompt("pesquisa de componentes para pc")
+var pergunta = prompt("pesquisa de componentes para pc")
 var processo = arraycomputador.indexOf(pergunta)
 if(processo == -1){
-    //alert("Componente não existe")
+    alert("Componente não existe")
 }else{
-    //alert("Componente existe")
+    alert("Componente existe")
 }
 
 console.log(Object.entries(computador))
 
+//*MAP
+
+const frutas = ["banana","mação","abacaxi", "tomate", "morango"]
+const resultadomap = frutas.map((cadaelemento)=>"<li>Fruta :"+cadaelemento+"</li>")
+
+document.getElementById("resposta").innerHTML = `O map, faz uma função para cada elemento de um array ou objeto <ul>${resultadomap}</ul>`
